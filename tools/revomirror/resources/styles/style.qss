@@ -1,0 +1,201 @@
+/* 应用全局样式 */
+QWidget {
+    background-color: #383838;
+}
+
+/* 按钮样式 */
+QPushButton {
+    font-family: Source Han Sans CN Regular;
+    font-size: 14px;
+    background-color: #E64545;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+}
+
+QPushButton:hover {
+    background-color: #F2746F;
+}
+
+QPushButton:pressed {
+    background-color: #BF3035;
+}
+
+#iconTextBtn
+{
+    border: none;
+    border-radius: 4px;
+    background-color: none;
+}
+
+#iconTextBtn:hover
+{
+    background-color: #4B4B4B;
+}
+
+#iconTextBtn:pressed
+{
+    background-color: #404040;
+}
+
+QPushButton#minBtn {
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+    border: none;
+    background-color: none;
+    background-image: url(:/resources/images/icon_min_normal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+QPushButton#minBtn:hover {
+    background-image: url(:/resources/images/icon_min_hover.png);
+}
+
+QPushButton#minBtn:pressed {
+    background-image: url(:/resources/images/icon_min_pressed.png);
+}
+
+
+QPushButton#maxBtn {
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+    border: none;
+    background-color: none;
+    background-image: url(:/resources/images/icon_max_normal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+QPushButton#closeBtn {
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+    border: none;
+    background-color: none;
+    background-image: url(:/resources/images/icon_close_normal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+QPushButton#closeBtn:hover {
+    background-image: url(:/resources/images/icon_close_hover.png);
+}
+
+QPushButton#closeBtn:pressed {
+    background-image: url(:/resources/images/icon_close_pressed.png);
+}
+
+QPushButton#aboutBtn {
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: none;
+    background-image: url(:/resources/images/icon_about_normal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+QPushButton#aboutBtn:hover {
+    background-image: url(:/resources/images/icon_about_hover.png);
+}
+
+QPushButton#aboutBtn:pressed {
+    background-image: url(:/resources/images/icon_about_pressed.png);
+}
+
+QPushButton#userManualBtn {
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: none;
+    background-image: url(:/resources/images/icon_user_manual_normal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+QPushButton#userManualBtn:hover {
+    background-image: url(:/resources/images/icon_user_manual_hover.png);
+}
+
+QPushButton#userManualBtn:pressed {
+    background-image: url(:/resources/images/icon_user_manual_pressed.png);
+}
+
+QLabel {
+    border: none;
+    background-color: none;
+}
+
+QLabel#labelTitle {
+    font-family: Source Han Sans CN Regular;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+QLabel#labelContent {
+    font-family: Source Han Sans CN Regular;
+    color: #979797;
+    font-size: 14px;
+}
+
+QLabel#labelStopped {
+    font-family: Source Han Sans CN Regular;
+    margin-top: 16px;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+#disconnectBtn {
+    width: 60px;
+    height: 60px;
+    margin-top: 89px;
+    border: none;
+    background-color: none;
+    background-image: url(:/resources/images/disconnect.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#stopBtn
+{
+    width: 97px;
+    height: 97px;
+    padding: 0px;
+    margin-top: 95px;
+    border: none;
+    background-color: none;
+    background-image: url(:/resources/images/stop_normal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#stopBtn:hover
+{
+    background-image: url(:/resources/images/stop_hover.png);
+}
+
+#stopBtn:pressed
+{
+    background-image: url(:/resources/images/stop_pressed.png);
+}
+
+/* 输入框样式 */
+QLineEdit {
+    font-family: Source Han Sans CN Regular;
+    border: none;
+    margin-right:40px;
+    padding: 8px 12px 8px 12px;
+    border-radius: 4px;
+    background-color: #2B2B2B;
+    font-size: 14px;
+    color: #737373;
+}
+
+QLineEdit:placeholder {
+    font-size: 24px;
+    color: #737373;
+    font-family: Source Han Sans CN Regular;
+}

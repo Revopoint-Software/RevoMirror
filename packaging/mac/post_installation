@@ -1,0 +1,45 @@
+#!/bin/bash
+# postinstall script for your package
+
+SCRIPT_PATH="/usr/local/bin/revomirror_cleanup_monitor"
+PLIST_PATH="/Library/LaunchDaemons/com.revopoint3d.revomirror.cleanup.plist"
+
+# 确保目录存在
+mkdir -p /usr/local/bin
+mkdir -p "/Library/LaunchDaemons"
+
+# 设置执行权限
+chmod +x "$SCRIPT_PATH"
+
+# 使用LaunchDaemon而不是LaunchAgent，以获得系统级权限
+cat > /Library/LaunchDaemons/com.revopoint3d.revomirror.cleanup.plist << 'EOF'
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.revopoint3d.revomirror.cleanup</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/bin/revomirror_cleanup_monitor</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+</dict>
+</plist>
+EOF
+
+#先卸载
+sudo launchctl bootout system  "$PLIST_PATH"
+
+# 加载Launch Agent
+sudo launchctl bootstrap system  "$PLIST_PATH"
+
+echo "RevoMirror监控服务已安装并启动"
+echo "监控脚本位置: $SCRIPT_PATH"
+echo "Launch Agent配置: $PLIST_PATH"
+echo "日志文件: /tmp/revomirror_cleanup.log"
+
+exit 0

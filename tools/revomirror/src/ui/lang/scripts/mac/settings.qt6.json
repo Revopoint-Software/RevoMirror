@@ -1,0 +1,13 @@
+{
+    "cmake.configureSettings": {
+        "CMAKE_PREFIX_PATH": "/Users/simon/Qt/6.5.3/macos",
+        "ENABLE_FEATURE": "1",
+        "ENABLE_OTHER_FEATURE": "0",
+        "BUILD_TESTS": "OFF",
+        "COPY_LIB": "ON",
+        "CMAKE_OSX_ARCHITECTURES": "x86_64"
+      },
+      "terminal.integrated.env.osx": {
+        "PATH": "${env:PATH};/Users/simon/Qt/6.5.3/macos;${workspaceFolder}/../3rdparty/opencv/opencv3413/bin/windows/x64;${workspaceFolder}/../3rdparty/osg3.6.5/bin/windows/x64;${workspaceFolder}/../3rdparty/cspcpp/bin/windows/x64;${workspaceFolder}/../3rdparty/gpp/bin/windows/x64;${workspaceFolder}/../3rdparty/3DCamera/bin/windows/x64;${workspaceFolder}/../3rdparty/simpleBLE/bin/windows/x64;${workspaceFolder}/../3rdparty/qzxing/bin/mac/x64;${workspaceFolder}/../3rdparty/mtp/bin/macos/x64"
+      }
+}

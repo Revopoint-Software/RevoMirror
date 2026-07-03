@@ -1,0 +1,37 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="">
+        <file>resources/images/cancel.png</file>
+        <file>resources/images/new_pair.png</file>
+        <file>resources/images/disconnect.png</file>
+        <file>resources/images/stop_normal.png</file>
+        <file>resources/images/stop_hover.png</file>
+        <file>resources/images/stop_pressed.png</file>
+        <file>resources/images/pin_warning.png</file>
+        <file>resources/images/icon_min_normal.png</file>
+        <file>resources/images/icon_min_hover.png</file>
+        <file>resources/images/icon_min_pressed.png</file>
+        <file>resources/images/icon_max_normal.png</file>
+        <file>resources/images/icon_close_normal.png</file>
+        <file>resources/images/icon_close_hover.png</file>
+        <file>resources/images/icon_close_pressed.png</file>
+        <file>resources/images/icon_about_normal.png</file>
+        <file>resources/images/icon_about_hover.png</file>
+        <file>resources/images/icon_about_pressed.png</file>
+        <file>resources/images/icon_user_manual_normal.png</file>
+        <file>resources/images/icon_user_manual_hover.png</file>
+        <file>resources/images/icon_user_manual_pressed.png</file>
+        <file>resources/images/icon_down_arrow.png</file>
+        <file>resources/images/icon_logo_about.png</file>
+        <file>resources/images/loading_background.png</file>
+        <file>resources/images/icon_logo_loading.png</file>
+        <file>resources/images/icon_pop_select.png</file>
+        <file>resources/images/icon_dialog_loading.gif</file>
+    </qresource>
+    <qresource prefix="">
+        <file>resources/styles/style.qss</file>
+    </qresource>
+    <qresource prefix="">
+        <file>resources/fonts/SourceHanSansCN-Regular.ttf</file>
+    </qresource>
+</RCC>

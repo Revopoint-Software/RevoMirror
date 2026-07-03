@@ -1,0 +1,115 @@
+#!/bin/bash
+# /usr/local/bin/revomirror_cleanup_monitor
+
+REVOMIRROR_APP="/Applications/RevoMirror.app"
+SUNSHINE_APP="/Library/Services/Sunshine.app"
+
+for disk in /Volumes/*; do
+  if [ -d "$disk" ]; then  # 只处理目录（排除文件）
+    sunshine_path="$disk/Library/Services/Sunshine.app"
+    revomirror_path="$disk/Applications/RevoMirror.app"
+    echo "=== 磁盘: $disk ==="
+    if [ -d "$sunshine_path" -a -d "$revomirror_path" ]; then
+      echo "✅ 存在 Sunshine: $sunshine_path"
+      echo "✅ 存在 RevoMirror: $revomirror_path"
+      REVOMIRROR_APP="$revomirror_path"
+      SUNSHINE_APP="$sunshine_path"
+      break
+    fi
+  fi
+done
+
+echo "REVOMIRROR_APP: $REVOMIRROR_APP"
+echo "SUNSHINE_APP: $SUNSHINE_APP"
+
+
+SUNSHINE_BUNDLE_ID="dev.lizardbyte.sunshine"
+LOG_FILE="/tmp/revomirror_cleanup.log"
+
+# 日志记录函数
+log_message() {
+    echo "$(date '+%Y-%m-%d %H:%M:%S'): $1" >> "$LOG_FILE"
+}
+
+# 清除Sunshine权限并删除应用
+cleanup_sunshine() {
+    log_message "RevoMirror已被移除，开始清理Sunshine..."
+    
+    # 停止Sunshine进程（如果正在运行）
+    pkill -f "Sunshine" 2>/dev/null
+    
+    # 清除录屏权限
+    if tccutil reset ScreenCapture "$SUNSHINE_BUNDLE_ID" 2>/dev/null; then
+        log_message "已清除Sunshine的录屏权限"
+    else
+        log_message "清除录屏权限失败或权限不存在"
+    fi
+    
+    # 清除系统录音权限
+    if tccutil reset Microphone "$SUNSHINE_BUNDLE_ID" 2>/dev/null; then
+        log_message "已清除Sunshine的系统录音权限"
+    else
+        log_message "清除系统录音权限失败或权限不存在"
+    fi
+    
+    # 清除辅助功能权限
+    if tccutil reset Accessibility "$SUNSHINE_BUNDLE_ID" 2>/dev/null; then
+        log_message "已清除Sunshine的辅助功能权限"
+    else
+        log_message "清除辅助功能权限失败或权限不存在"
+    fi
+    
+    # 删除Sunshine应用
+    if [ -d "$SUNSHINE_APP" ]; then
+        if rm -rf "$SUNSHINE_APP" 2>/dev/null; then
+            log_message "已删除Sunshine应用: $SUNSHINE_APP"
+        else
+            log_message "删除Sunshine应用失败，可能需要管理员权限"
+        fi
+    else
+        log_message "Sunshine应用不存在: $SUNSHINE_APP"
+    fi
+    
+    log_message "Sunshine清理完成"
+}
+
+# 自我清理函数
+cleanup_self() {
+    log_message "开始清理监控服务..."
+    
+    # 卸载Launch Agent
+    launchctl unload ~/Library/LaunchAgents/com.revopoint3d.revomirror.cleanup.plist 2>/dev/null
+    rm -f ~/Library/LaunchAgents/com.revopoint3d.revomirror.cleanup.plist
+    
+    # 删除监控脚本
+    rm -f /usr/local/bin/revomirror_cleanup_monitor
+    
+    log_message "监控服务已清理完成"
+}
+
+# 初始化状态检查
+revomirror_exists=false
+if [ -d "$REVOMIRROR_APP" ]; then
+    revomirror_exists=true
+    log_message "监控服务启动，RevoMirror当前存在"
+else
+    log_message "监控服务启动，RevoMirror当前不存在"
+fi
+
+# 主监控循环
+while true; do
+    sleep 10  # 每10秒检查一次
+    
+    # 检查RevoMirror应用状态
+    if [ "$revomirror_exists" = true ] && [ ! -d "$REVOMIRROR_APP" ]; then
+        # RevoMirror之前存在，现在被移除了
+        log_message "检测到RevoMirror被移除"
+        cleanup_sunshine
+        cleanup_self
+        break
+    elif [ "$revomirror_exists" = false ] && [ -d "$REVOMIRROR_APP" ]; then
+        # RevoMirror重新出现
+        revomirror_exists=true
+        log_message "检测到RevoMirror重新安装"
+    fi
+done

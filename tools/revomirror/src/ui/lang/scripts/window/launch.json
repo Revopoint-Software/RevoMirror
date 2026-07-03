@@ -1,0 +1,62 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https:/go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(msvc) Launch-qt5",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${command:cmake.launchTargetPath}",
+            "symbolSearchPath": "D:/Qt/5.12.12/msvc2017_64/bin",
+            // "args": ["C:\\Users\\simon\\Desktop\\TEST\\TEST\\oldProjectRootPath\\model-2023-01-30-16-04-00\\model-2023-01-30-16-04-00.csprj--"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [
+                {
+                    "name": "PATH",
+                    "value": "${env:PATH};${command:cmake.getLaunchTargetDirectory};D:/Qt/5.12.12/msvc2017_64/bin;${workspaceFolder}/../3rdparty/osg3.6.5/bin/windows/x64;${workspaceFolder}/../3rdparty/osg3.6.5/bin/windows/x64/osgPlugins-3.6.5;${workspaceFolder}/../3rdparty/opencv/opencv3413/bin/windows/x64;${workspaceFolder}/../3rdparty/cspcpp/bin/windows/x64;${workspaceFolder}/../3rdparty/gpp/bin/windows/x64;${workspaceFolder}/../3rdparty/3DCamera/bin/windows/x64;${workspaceFolder}/../3rdparty/simpleBLE/bin/windows/x64;${workspaceFolder}/../3rdparty/qzxing/bin/windows/x64;${workspaceFolder}/../3rdparty/smtp1.1/bin/windows/x64;${workspaceFolder}/../3rdparty/aeSharpnessFineAlgorithm/bin/windows/x64;${workspaceFolder}/../3rdparty/vld/bin/Win64;${workspaceFolder}/../3rdparty/osg3.6.5/3rdParty/bin;${workspaceFolder}/../3rdparty/cscalibration/bin/windows/x64;${workspaceFolder}/../3rdparty/cscalibration/dependent;${workspaceFolder}/../3rdparty/trackerScanner/bin/windows/x64;${workspaceFolder}/../3rdparty/opencv/opencv455/bin/windows;${workspaceFolder}/../3rdparty/curl/bin/windows/x64;"
+
+                    // "value": "${env:PATH};D:/Qt/5.12.12/msvc2017_64/bin;${workspaceFolder}/../3rdparty/opencv/opencv3413/bin/windows/x64;${workspaceFolder}/../3rdparty/osg3.6.5/bin/windows/x64;${workspaceFolder}/../3rdparty/cspcpp/bin/windows/x64;${workspaceFolder}/../3rdparty/gpp/bin/windows/x64;${workspaceFolder}/../3rdparty/3DCamera/bin/windows/x64;${workspaceFolder}/../3rdparty/simpleBLE/bin/windows/x64;${workspaceFolder}/../3rdparty/openssl/bin;${workspaceFolder}/../3rdparty/qzxing/bin/windows/x64;${workspaceFolder}/../3rdparty/smtp1.1/bin/windows/x64;${workspaceFolder}/../3rdparty/aeSharpnessFineAlgorithm/bin/windows/x64"
+                }
+            ],
+            "console": "internalConsole",
+            "visualizerFile": "${workspaceFolder}/scripts/window/qt5.natvis.xml",
+            "sourceFileMap": {
+                "C:/work/build/qt5_workdir/w/s": "D:/Qt/5.12.12/Src",
+                "Q:/qt5_workdir/w/s": "D:/Qt/5.12.12/Src",
+                "C:/Users/qt/work/install": "D:/Qt/5.12.12/Src",
+                "C:/Users/qt/work/qt": "D:/Qt/5.12.12/Src",
+                "d:/temp/openscenegraph-3.6/openscenegraph-openscenegraph-3.6": "D:/temp/OpenSceneGraph-3.6.5"
+            }
+        },
+        {
+            "name": "(msvc) Launch-qt6",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${command:cmake.launchTargetPath}",
+            // "args": ["C:\\Users\\simon\\Desktop\\TEST\\TEST\\oldProjectRootPath\\model-2023-01-30-16-04-00\\model-2023-01-30-16-04-00.csprj--"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [
+                {
+                    "name": "PATH",
+                    "value": "${env:PATH};${command:cmake.getLaunchTargetDirectory};D:/Qt/6.7.0/msvc2019_64/bin;${workspaceFolder}/../3rdparty/osg3.6.5/bin/windows/x64;${workspaceFolder}/../3rdparty/osg3.6.5/bin/windows/x64/osgPlugins-3.6.5;${workspaceFolder}/../3rdparty/opencv/opencv3413/bin/windows/x64;${workspaceFolder}/../3rdparty/cspcpp/bin/windows/x64;${workspaceFolder}/../3rdparty/gpp/bin/windows/x64;${workspaceFolder}/../3rdparty/3DCamera/bin/windows/x64;${workspaceFolder}/../3rdparty/simpleBLE/bin/windows/x64;${workspaceFolder}/../3rdparty/qzxing/bin/windows/x64;${workspaceFolder}/../3rdparty/smtp1.1/bin/windows/x64;${workspaceFolder}/../3rdparty/aeSharpnessFineAlgorithm/bin/windows/x64;${workspaceFolder}/../3rdparty/vld/bin/Win64;${workspaceFolder}/../3rdparty/osg3.6.5/3rdParty/bin;${workspaceFolder}/../3rdparty/cscalibration/bin/windows/x64;${workspaceFolder}/../3rdparty/cscalibration/dependent;${workspaceFolder}/../3rdparty/trackerScanner/bin/windows/x64;${workspaceFolder}/../3rdparty/opencv/opencv455/bin/windows;${workspaceFolder}/../3rdparty/curl/bin/windows/x64;"
+
+                    // "value": "${env:PATH};D:/Qt/6.7.0/msvc2019_64/bin;${workspaceFolder}/../3rdparty/opencv/opencv3413/bin/windows/x64;${workspaceFolder}/../3rdparty/osg3.6.5/bin/windows/x64;${workspaceFolder}/../3rdparty/cspcpp/bin/windows/x64;${workspaceFolder}/../3rdparty/gpp/bin/windows/x64;${workspaceFolder}/../3rdparty/3DCamera/bin/windows/x64;${workspaceFolder}/../3rdparty/simpleBLE/bin/windows/x64;${workspaceFolder}/../3rdparty/openssl/bin;${workspaceFolder}/../3rdparty/qzxing/bin/windows/x64;${workspaceFolder}/../3rdparty/smtp1.1/bin/windows/x64;${workspaceFolder}/../3rdparty/aeSharpnessFineAlgorithm/bin/windows/x64"
+                }
+            ],
+            "console": "internalConsole",
+            "visualizerFile": "${workspaceFolder}/scripts/window/qt6.natvis.xml",
+            "sourceFileMap": {
+                "C:/work/build/qt5_workdir/w/s": "D:/Qt/6.7.0/Src",
+                "Q:/qt5_workdir/w/s": "D:/Qt/6.7.0/Src",
+                "C:/Users/qt/work/install": "D:/Qt/6.7.0/Src",
+                "C:/Users/qt/work/qt": "D:/Qt/6.7.0/Src",
+                "d:/temp/openscenegraph-3.6/openscenegraph-openscenegraph-3.6": "D:/temp/OpenSceneGraph-3.6.5"
+            }
+        },
+
+    ]
+}

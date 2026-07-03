@@ -1,0 +1,143 @@
+User License Agreement & Privacy Policy
+
+User License Agreement
+
+Note: Users are hereby reminded to carefully read this " License Agreement" (hereinafter referred to as the Agreement). By installing, using, obtaining and logging in the Software, you agree to this Agreement and agree to be bound by the terms of this Agreement. 
+
+This is a legal agreement between you (the "User") and the Company regarding the installation, use, registration, and management of the Software, and the use of the relevant services provided by the Company. This Agreement states rights and obligations between the Company and the User in relation to the licensed use and services of the Software. "User" means an individual or organization that obtains licenses for software products and numbers through the Company's software license and registration channels and use relevant services provided by the Company.
+
+This Agreement may be updated by the Company at any time, the updated terms of the Agreement will be notified through website announcement, software announcement and other means, once notified, the previous terms of the Agreement is replaced, without separate notice. Users can re-download and install the Software or refer to the latest version of the Agreement. After the Company updates the terms of the Agreement, if the User does not agree to the updated terms, promptly stop using the software and services provided by the Company, and the User's continued use of the software and services provided by the Company will be deemed to have agreed to the updated Agreement. Except as expressly provided in this Agreement, this Agreement does not provide terms for other services provided by companies or partner company using the Software. For these services, there are separate Terms of Service, Users shall read and confirm the terms when using the services. If the other Terms of Service conflict with this Agreement, the separate Terms of Service shall prevail. If the user uses the service, it is considered an acceptance of the relevant Terms of Service.
+
+1. Statement of Intellectual Property
+This "Software" is developed by the Company. All intellectual property rights such as copyrights, trademarks, patents, trade secrets, and all information relating to the Software, including but not limited to: text statements and their combinations, icons, graphics, charts, colors, interface design, layout frames, relevant data, printed materials, or electronic documents are protected by the Copyright Law of the People's Republic of China, Trademark Law of the People's Republic of China, Patent Law of the People's Republic of China, Law of the People's Republic of China Against Unfair Competition and the corresponding international treaties and other intellectual property laws and regulations, except for software or technology authorized by third parties, the company owns the above-mentioned intellectual property rights.
+
+2. Scope of Software License 
+2.1 Users can install, use, display and run the software.
+2.2 Reserved Rights: All other rights not expressly authorized remain owned by the Company and the use of other rights by users requires additional written consent from the Company.
+2.3 In addition to the provisions of this Agreement, this Agreement does not provide the Terms of Service for companies or partner companies accessing the Software, for which there may be separate Terms of Service, users shall read and confirm the terms when using the relevant services.
+
+3. Legal Liability and Exemption
+3.1 Licenses to use.
+3.2 Notes: In order to safeguard the Company's right of business development and adjustment, the Company may at any time modify or terminate the software license, the modification or termination of the license will be notified on the Company's website, important pages of the Software, without separate notice.
+3.3 In violation of this Agreement or the relevant Terms of Service, resulting in or incurring any claim, demand or loss claimed by any third party, including reasonable attorney's fees, the User agrees to compensate and indemnify the Company and the Partner Company, the Affiliated Company against any loss.
+3.4 The use of the Software is at the user's own risk, and the Company and its partner company do not guarantee the Software of any kind, whether expressly, impliedly or as required by law, including, but not limited to, the marketability, applicability, non-virus, non-negligence or technical defects of the Software, the expressed or implied warranties and conditions of the ownership and non-infringement. The Company and its partners shall not be liable for any direct, indirect, incidental, special and subsequent damages and risks arising from the use or inability to use the Software under any circumstances.
+3.5 The use of the Software requires Internet services and may be affected by instability in the process. The company and the partner company shall not be liable for the economic loss of the user due to force majeure, computer viruses, hacking, system instability, illegal content information, harassing information shielding, and any other Internet service reasons such as network, technology, communication lines, and information security management measures.
+3.6 The Company and the Partner company shall not be liable for any loss suffered by the User as a result of a communication line failure, technical problems, network, computer failure, system instability of a third party and various other force majeure.
+3.7 If force majeure events such as technical failure affect the normal operation of the service, the company and the partner company promise to instantly cooperate with the relevant parties to repair it, but the company and the partner company shall not be liable for losses thus suffered by the users.
+
+4. Other provisions
+4.1 The invalidity of some or all of the provisions of this Agreement shall not affect the validity of the other provisions.
+4.2 The interpretation, validity and settlement of disputes in this Agreement shall apply to the laws of the People's Republic of China. If any dispute between the user and the company occurs, it shall be resolved by friendly consultation, if the consultation fails, the user hereby agrees to submit the dispute to the jurisdiction of the People's Court of the city where the company is located. 
+4.3 The copyright of this Agreement is owned by the Company, which reserves all the right to interpret it. The software and service names mentioned herein may be registered trademarks or trademarks of the Company and are protected by law.
+
+
+Privacy Policy
+
+Note: Your trust is of great importance to us. We deeply understand the importance of personal information to you, and will take corresponding security measures in accordance with laws and regulations and strive to protect your personal information to keep it secure and under control. This Policy is applicable to Revopoint software products and services. If our Affiliates use products or services provided by Revopoint for their own products or services but no separate privacy policy has been formulated, this Policy shall also apply to such products or services. 
+
+Prior to the use of Revopoint products or services, please carefully read and thoroughly understand this Policy and confirm that you have fully understood and agreed to this Policy before using relevant products or services. Your use of Revopoint products or services shall be deemed as you have fully understood and agreed to this Policy.
+
+I. How we collect and use your information
+
+When you use Revopoint products or services, we need / may need to collect and use your personal information in the following two ways:
+
+1、In order to provide you with the basic functions of our Revopoint products and / or services, you must authorize us to collect and use your necessary information. If you refuse to provide relevant information, you will not be able to use our products and / or services normally;
+
+2、In order to provide you with additional functions of our Revopoint products and / or services, you can choose to authorize us to collect and use your information. If you refuse to provide, you will not be able to use the relevant additional functions normally or achieve the function effect we intend to achieve, but it will not affect your normal use of the basic functions of our products and / or services.
+
+You understand and agree that:
+In order to bring you a better product and service experience, we are constantly striving to improve our technology, and then we may launch new or optimized functions from time to time, and may need to collect and use new personal information or change the purpose or method of using personal information. In this regard, we will update this Policy in software installation step, pop-up window, page prompt and other ways to separately explain the collection purpose, scope and usage of the corresponding information to you, and provide you with the way of independent choice and consent, and collect and use it with your express consent. In this process, if you have any questions, opinions or suggestions, you can contact us through various contact information provided at in this policy, and we will get back to you as soon as possible.
+
+In order to provide Functions/Services to you, improve and optimize our service experience and ensure your account security, we will collect information when you use our Service and based on the following purposes and methods of this Policy:
+
+(I)    Help you to become our registered Software/Service user
+
+To register as a Revopoint personal user so that we are able to authorize you to use the software/service such as Revo Studio and so on，you need to provide your Email. In order to complete the registration of your personal account, you agree that we will send mail with verification code based on your Email and you have to submit it to us,  otherwise, you will not be able to get software authorization and use it.
+
+In order to ensure the authorization of the software, the identification information (including device identifiers, such as MAC address, hardware serial number, etc.) of the computer hardware and system used to install the software will also be collected during registration.
+
+(II)   Collect and use you information in the process of using Revopoint Services
+
+When you are using Revopoint Services, in order to provide you with more and better compatible hardware and/or software services, software/firmware upgrade, identification of account abnormal status, improve and optimize your experience of software/service, we will collect your information and may connect these information:
+
+1、User information: We will collect the information you submitted or generated when using Revopoint Service as an registered user. For example, to register as a Revopoint personal user so that we are able to authorize you to use the software/service such as Revo Studio and so on，you need to provide your Email.
+
+2、Device information: On the basis of the specific authorizations granted by you in installation and use of the software, we will receive and record information relating to the device used by you (e.g., device model, operating system version, device settings, unique device identifier and other information of software and hardware features).
+
+3、Log information: When you use products or services provided by Revopoint, we will collect detailed operation log information relating to your use of our services and save them as logs.
+
+Please note that the device information or log information alone is not sufficient to identify a certain natural person. If we combine such non-Personal Information with other information to identify certain natural person, or use the same in combination with Personal Information, then such non-Personal Information will be deemed as Personal Information during such combination, and we will anonymize and de-identify such Personal Information unless with your authorization or it is otherwise provided by laws and regulations.
+
+4、Information provided by you
+
+In the process of using Revopoint Service, you may actively contact us to give feedback on the experience of Revopoint products and services, help us better understand your experience and needs of using and improving our products or services, and we may record your contact information, your question and suggestion, etc. so that we may get back to you with our further feedbacks.
+
+II. How we share, transfer and disclose your Personal Information
+
+(I) Share
+
+We will not share your Personal Information with companies, organizations or individuals other than Revopoint Service Providers, except in the following circumstances:
+
+1、Sharing with explicit consent: We will share your Personal Information with other parties with your explicit consent;
+
+2、Sharing as required by laws: We may share your Personal Information as required by laws, regulations, litigation, dispute resolution, or by administrative or judicial authority in accordance with laws;
+
+ (II) Transfer
+
+We will not transfer your Personal Information to any company, organization or individual, except in the following circumstances:
+
+1、Transfer with explicit consent: We will transfer your Personal Information to other parties with your explicit consent;
+
+2、In case of any acquisition, merger or insolvency liquidation, or other circumstances involving merger, acquisition or insolvency liquidation, of Revopoint Service Providers, if transfer of Personal Information is involved, we will require the new company, organization or individual in possession of your Personal Information to continue to be bound by this Policy, or we will require such company, organization and individual to obtain your authorization and consent again.
+
+(III) Public disclosure
+
+We will disclose your Personal Information to the public only under the following circumstances:
+
+1、We may disclose your Personal Information to the public with your explicit consent or at your voluntary option;
+
+2、If we determine that you have violated laws and regulations, or have a material breach of the agreements with or regulations of Revopoint, we may disclose your Personal Information in accordance with laws and regulations, or the agreements with and regulations of Revopoint after obtaining your consent.
+
+(IV) Exceptions to obtaining prior authorization and consent for sharing, transferring and disclosing Personal Information
+
+Unless otherwise stated in a country specific addendum, your Personal Information may be shared, transferred or disclosed to the public without your authorization and consent under the following circumstances:
+
+1、National safety and national defense security are involved;
+
+2、Public security, public health, or major public interests are involved;
+
+3、Criminal investigation, prosecution, judgment and enforcement are involved;
+
+4、For the purpose of protecting your or other individual’s life, property and other major lawful rights and interests, where it is hard to obtain your or such individual’s prior consent;
+
+5、The Personal Information is disclosed voluntarily by you to the public;
+
+6、The Personal Information is collected from the information disclosed through lawful channels, such as lawful news reports or information disclosure by government.
+
+Please be noted that pursuant to laws, sharing and transfer of anonymized data which cannot be recovered by the recipient to re-identify the subjects of such personal information does not constitute sharing, transfer and disclosure of personal information to the public, and therefore it may be stored and processed without notice to you and without your consent.
+
+III. How we protect your Personal Information
+
+In order to protect your information security, we have taken reasonable and feasible security protection measures in line with industry standards to protect your information from unauthorized access, public disclosure, use, modification, damage or loss of your personal information. We have also taken strict management on the employees or outsourcing personnel who may come into contact with your information, including but not limited to taking different rights control according to different positions, signing confidentiality agreements with them, monitoring their operation, etc. We will provide corresponding security measures according to the existing technology to protect your information and provide reasonable security. We will try our best to make your information not be leaked, damaged or lost. 
+
+We will take reasonable and feasible measures to store your personal information and try our best to avoid collecting irrelevant personal information. We will only keep your personal information for the period required to achieve the purpose stated in the Policy and the period required by applicable laws and regulations. After your personal information exceeds the retention period, we will delete your personal information or make it anonymous according to the requirements of applicable laws.
+
+Given the fact that Internet environment is not completely secure, although we have those security measures in place, please bear in mind that there is no “perfect security measure” on the Internet, and we will use our commercial reasonable efforts to ensure the security of your information.
+
+IV. Access, Correction to or Deletion of Your Information
+
+If you would like to correct or update your personal information, or to request access to or deletion of your personal information, you may contact us by visiting the specific product or service website or by using the contact details provided under the “How to Contact Us” section below. If you request a change to or deletion of your personal information, please note that we may still need to retain certain information for recordkeeping purposes, and/or to complete any transactions that you began prior to requesting such change or deletion (e.g., when you make a purchase or enter a promotion, you may not be able to change or delete the personal information provided until after the completion of such purchase or promotion). Some of your information may also remain within our systems and other records where necessary for compliance with applicable law.
+
+V.How we update this Policy
+
+Our Policy may change from time to time. Without your explicit consent, we will not reduce and/or restrict the rights you are entitled to under this Policy. We will publish any change to this Policy on our official homepage at www.revopoint.com and, update it in the new version of softwares.
+
+VI. How to contact us
+
+If you have any questions or concerns about this Policy, you may contact us via “5*9 hours（UTC+8 9:30 -18:30）customer service hotline (+86 18124196779)", or we can be reached within following contact:
+
+Revopoint 3D Technologies Inc.
+Office 902, 9/F, Tinno Building, Tongfa South Rd, Xili Street, Nanshan District, Shenzhen, 518000, P.R.China.
+Email: info@revopoint3d.com
+
+Should you have any complaint to our feedback, especially you thought that our collecting of your Personal Information may infringe your legitimate rights, you may bring a lawsuit against us at the jurisdiction of People’s Court of Nanshan District for disputes resolution, if any.

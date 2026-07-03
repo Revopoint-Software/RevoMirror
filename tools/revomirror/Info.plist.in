@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- 基础配置（手动填充，避免依赖 CMake 变量） -->
+    <key>CFBundleIdentifier</key>
+    <string>com.revopoint3d.@PROJECT_NAME@</string>
+    <key>CFBundleBundleVersion</key>
+    <string>@PROJECT_VERSION@</string>
+    <key>CFBundleShortVersionString</key>
+    <string>@PROJECT_VERSION_MAJOR@.@PROJECT_VERSION_MINOR@</string>
+    <key>CFBundleName</key>
+    <string>@PROJECT_NAME@</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleExecutable</key>
+    <string>@PROJECT_NAME@</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+
+    <!-- 强制添加 CFBundleIcons（核心，必生效） -->
+    <key>CFBundleIcons</key>
+    <dict>
+        <key>CFBundlePrimaryIcon</key>
+        <dict>
+            <key>CFBundleIconFiles</key>
+            <array>
+                <string>AppIcon</string>
+            </array>
+            <key>CFBundleIconName</key>
+            <string>AppIcon</string>
+        </dict>
+    </dict>
+</dict>
+</plist>
