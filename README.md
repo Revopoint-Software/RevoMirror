@@ -11,6 +11,10 @@
   <a href="https://github.com/Revopoint-Software/RevoMirror/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Revopoint-Software/RevoMirror.svg?style=for-the-badge" alt="License"></a>
 </div>
 
+<div align="center">
+  <b>English</b> | <a href="README.zh-CN.md">简体中文</a>
+</div>
+
 ## ℹ️ About
 
 **RevoMirror** is a cross-platform remote screen mirroring and remote control solution
