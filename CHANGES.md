@@ -1,6 +1,6 @@
 # Modifications to Sunshine
 
-RevoMirror is a derivative work based on
+RevoMirror-PC is a derivative work based on
 [Sunshine](https://github.com/LizardByte/Sunshine) (licensed under GPL-3.0).
 
 This document records the modifications made to the original Sunshine source
@@ -8,7 +8,7 @@ code, in compliance with Section 5 of the GNU General Public License v3.0,
 which requires modified versions to carry prominent notices stating that the
 files were changed and the date of any change.
 
-> **Note:** The RevoMirror application code located in `tools/RevoMirror` is
+> **Note:** The RevoMirror-PC application code located in `tools/RevoMirror` is
 > new code added by Revopoint Software, not a modification of existing Sunshine
 > files. This document focuses on changes made to the **original Sunshine
 > source files**.
