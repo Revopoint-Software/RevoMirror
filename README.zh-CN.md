@@ -17,7 +17,7 @@
 
 ## ℹ️ 项目简介
 
-**RevoMirror-PC** 是由 **Revopoint Software（西安知象光电科技有限公司）** 开发的跨平台远程投屏与远程控制解决方案。它基于开源项目 [Sunshine](https://github.com/LizardByte/Sunshine)（遵循 GPL-3.0 许可证）二次开发，充分利用其高性能、低延迟的串流能力。
+**RevoMirror-PC** 是由 **Revopoint Software** 开发的跨平台远程投屏与远程控制解决方案。它基于开源项目 [Sunshine](https://github.com/LizardByte/Sunshine)（遵循 GPL-3.0 许可证）二次开发，充分利用其高性能、低延迟的串流能力。
 
 RevoMirror-PC 的核心功能包括：
 
@@ -178,7 +178,3 @@ RevoMirror-PC 基于以下优秀的开源项目构建：
   版权所有 © LizardByte，遵循 GPL-3.0 许可证。
 
 在此向 LizardByte 团队及所有 Sunshine 贡献者致以诚挚的感谢。本仓库完整保留了 Sunshine 的原始许可证与版权声明。
-
-## 🏢 关于 Revopoint Software
-
-RevoMirror-PC 由 **Revopoint Software（西安知象光电科技有限公司，Xi'an Chishine Optoelectronics Technology Co., Ltd.）** 开发并维护。
