@@ -200,8 +200,3 @@ RevoMirror-PC is built upon the excellent work of the following open-source proj
 We extend our sincere gratitude to the LizardByte team and all Sunshine contributors.
 The original Sunshine license and copyright notices are retained throughout this
 repository.
-
-## 🏢 About Revopoint Software
-
-RevoMirror-PC is developed and maintained by **Revopoint Software**
-(Xi'an Chishine Optoelectronics Technology Co., Ltd.).
