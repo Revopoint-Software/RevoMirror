@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.20)
 
-project(sunshine_tools)
+project(revomirror_tools)
 
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -16,7 +16,7 @@ include_directories(
 
 set(TOOL_SOURCES
         "${CMAKE_SOURCE_DIR}/src/logging.cpp"
-        "${CMAKE_SOURCE_DIR}/src/platform/windows/utf_utils.cpp"
+        "${CMAKE_SOURCE_DIR}/utf_utils.cpp"
 )
 
 add_executable(dxgi-info dxgi.cpp ${TOOL_SOURCES})
